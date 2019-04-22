@@ -21,7 +21,6 @@ body {
   background-color: rgb(38, 13, 106);
   z-index: 10;
   border: 1px solid grey;
-  /*box-shadow: 0 14px 14px -10px rgba(20, 20, 20, 0.4);*/
 }
 
 #top-display,
@@ -75,6 +74,11 @@ button {
 
 .num {
   background-color: rgb(68, 68, 68);
+}
+
+.num:hover {
+  background-color: rgb(26, 26, 26);
+  transition: 1s;
 }
 
 .op {
